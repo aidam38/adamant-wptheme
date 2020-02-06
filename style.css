@@ -1008,7 +1008,8 @@ ul.navmenu a { /* Menu link styling */
 
 /* změna barvy, když se na to najede */
 ul.navmenu li:hover a {
-	color: #F49E00; /* Text color of links */
+	/* color: #F49E00; /* Text color of links */
+    text-decoration: underline;
 }
 
 /* úvodní slideshow */
@@ -1393,7 +1394,8 @@ a:hover, a:active {
 }
 
 .container .navbar ul li a:hover {
-    color: #F49E00; /* Text color of links */
+    /*color: #F49E00; Text color of links */
+    text-decoration: underline;
 }
 
 .container .navbar ul .close {

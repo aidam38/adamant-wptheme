@@ -191,10 +191,10 @@ function mytheme_customize_css()
              h1 {
                  color: <?php echo get_theme_mod('adamant_primary_font_color', '#F6EBD8'); ?>;
              }
-             h2, h3, h4, h5, p {
+             h2, h3, h4, h5, p, body, .post, ul, ol {
                 color: <?php echo get_theme_mod('adamant_secondary_font_color', '#ECDCAF'); ?>;
              }
-             a {
+             a, a:visited, ul.navmenu a {
                  color: <?php echo get_theme_mod('adamant_link_color', '#ECDCAF'); ?>;
              }
          </style>
