@@ -1227,12 +1227,12 @@ i {
 
 a {
     color: #ECDCFF;
-    text-decoration: none;
+    text-decoration: underline;
 }
 
 a:visited {
     color: #ECDCAF;
-    text-decoration: none;
+    text-decoration: undelrine;
 }
 
 a:hover, a:focus, a:active {
@@ -1247,6 +1247,10 @@ a:hover, a:active {
 	outline: 0;
 }
 
+.entry-heading a {
+    text-decoration: none
+}
+
 .post {
 	display: block;
 	width: 100%;
@@ -1255,18 +1259,19 @@ a:hover, a:active {
 
 .entry-header {
     display: flex;
-    padding: 10px 0px 10px 20px;
+    padding: 10px 0px 10px 0px;
 }
 
 .post-thumbnail {
     width: 200px;
+    padding: 10px;
 }
 
 .entry-heading {
     display: block;
     position: relative;
     width: 100%;
-    padding: 10px 0px 10px 20px;
+    padding: 10px 0px 10px 0px;
 }
 
 .entry-content {
