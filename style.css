@@ -947,7 +947,7 @@ object {
 .icon {
 	display: none;
 
-	font-family: themix, sans-serif;
+	font-family: 'Noto Sans', sans-serif;
 	font-size: 18pt;
 	color: #ECDCAF;
 	padding: 0px 20px 0px 0px;
@@ -968,7 +968,7 @@ object {
 /* Menu Bar List */
 ul.navmenu {
 	padding-right: 20px;
-	font-family: themix, sans-serif;
+	font-family: 'Noto Sans', sans-serif;
 	font-size: 17px;
 	font-weight: bold;
 	color: #F6EBD8;
@@ -1095,23 +1095,23 @@ img.thumbnail {
 
 @font-face {
     font-family: 'Alegreya Sans SC', sans-serif;
-    font-weight: normal;
+    font-weight: bold;
     font-style: normal;
 }
 
 body {
-	font-family: themix, sans-serif;
+	font-family: 'Noto Sans', sans-serif;
 }
 
 h1 {
-	font-family: skautbold, sans-serif;
-	font-weight: normal;
+	font-family: 'Alegreya Sans SC', sans-serif;
+	font-weight: bold;
 	font-size: 35px;
 	color: #F6EBD8;
 }
 
 h2 {
-	font-family: themix, sans-serif;
+	font-family: 'Alegreya Sans SC', sans-serif;
 	font-weight: 700;
 	font-size: 30px;
 	color: #ECDCAF;
@@ -1120,13 +1120,13 @@ h2 {
 }
 
 h3 {
-	font-family: themix, sans-serif;
+	font-family: 'Alegreya Sans SC', sans-serif;
 	font-weight: 700;
 	font-size: 25px;
 }
 
 h4 {
-	font-family: themix, sans-serif;
+	font-family: 'Alegreya Sans SC', sans-serif;
 	font-weight: 700;
 	font-style: italic;
 	font-size: 25px;
@@ -1145,7 +1145,7 @@ h6 {
 }
 
 p {
-	font-family: themix, sans-serif;
+	font-family: 'Noto Sans', sans-serif;
 	font-weight: 400;
 	font-style: normal;
 	font-size: 17px;
@@ -1153,7 +1153,7 @@ p {
 }
 
 ul, ol {
-	font-family: themix, sans-serif;
+	font-family: 'Noto Sans', sans-serif;
 	font-weight: 400;
 	font-style: normal;
 	font-size: 17px;
