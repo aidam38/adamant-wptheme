@@ -1267,6 +1267,10 @@ a:hover, a:active {
     padding: 10px;
 }
 
+.post-thumbnail img {
+    padding: 10px;
+}
+
 .entry-heading {
     display: block;
     position: relative;
